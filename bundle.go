@@ -7,7 +7,7 @@ import (
 	"slices"
 	"time"
 
-	"github.com/Martin-Business-Consultants/runwellgo/internal/plugin"
+	"github.com/Martin-Business-Consultants/runwellgo/v3/plugin"
 )
 
 // A person's priorities (MyDay::Bundle): the work they've dragged to the top

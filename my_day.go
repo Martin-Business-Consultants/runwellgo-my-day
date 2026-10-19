@@ -2,7 +2,7 @@
 // (github.com/Martin-Business-Consultants/plugin-my-day) onto the Go plugin
 // API alone: the work you lead or are on in one list, searched and filtered,
 // with the piece you pick open beside it (its own Svelte screen,
-// ui/src/plugins/my_day), and the work you drag to the top as your
+// ui/), and the work you drag to the top as your
 // priorities, in the order you mean to do it. It keeps the Rails tables
 // (my_day_bundles, my_day_pins), so an imported Rails database's priorities
 // are its own; work is read with Records and changed with ChangeWork.
@@ -12,7 +12,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/Martin-Business-Consultants/runwellgo/internal/plugin"
+	"github.com/Martin-Business-Consultants/runwellgo/v3/plugin"
 )
 
 // Key is the plugin's key.
